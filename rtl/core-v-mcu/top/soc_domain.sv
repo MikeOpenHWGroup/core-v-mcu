@@ -13,8 +13,7 @@
 `include "pulp_peripheral_defines.svh"
 
 module soc_domain
-  import dm::*;
-#(
+  import dm::*; #(
     parameter USE_FPU = 0,
     parameter USE_HWPE = 0,
     parameter USE_CLUSTER_EVENT = 1,
